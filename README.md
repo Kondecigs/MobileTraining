@@ -89,8 +89,9 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.
 adb push <origem> <dest>
 #Puxar do android
 adb pull <origem> <dest>
-#Exemplos:
+```
+Exemplos:
+```
 adb pull /storage/emulated/0/ExtractedApks/Documents_com.android.documentsui ./
 adb pull /storage/emulated/0/ExtractedApks/Documents_com.android.documentsui ./
-
 ```
