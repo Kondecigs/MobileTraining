@@ -46,6 +46,7 @@ https://play.google.com/store/apps/details?id=braveheart.apps.apkextract&hl=en_U
 ```
 ### Apktool
 https://ibotpeaches.github.io/Apktool/install/
+
 Download Linux wrapper script (Right click, Save Link As apktool) https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool
 
 Download apktool-2 (https://bitbucket.org/iBotPeaches/apktool/downloads/)
