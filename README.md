@@ -32,3 +32,10 @@ Instalação do APK:
 ```
 adb install diva-beta.apk
 ```
+
+## Interceptação
+Exportar certificado do Burp.
+Enviar certificado para o dispositivo:
+```
+adb push <arquivo> <destino>
+```
