@@ -83,3 +83,14 @@ sudo apt-get install openjdk-11-jdk
 keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore my_application.apk alias_name
 ```
+### Envio e recebimento de arquivos
+```
+#Enviar pro android
+adb push <origem> <dest>
+#Puxar do android
+adb pull <origem> <dest>
+#Exemplos:
+adb pull /storage/emulated/0/ExtractedApks/Documents_com.android.documentsui ./
+adb pull /storage/emulated/0/ExtractedApks/Documents_com.android.documentsui ./
+
+```
