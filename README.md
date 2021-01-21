@@ -64,6 +64,7 @@ apktool d <aplicativo.apk>
 ```
 ### JD-GUI
 https://java-decompiler.github.io
+
 https://github.com/java-decompiler/jd-gui/releases/download/v1.6.6/jd-gui-1.6.6.jar
 ```
 java -jar jd-gui-x.y.z.jar
