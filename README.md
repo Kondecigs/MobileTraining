@@ -39,3 +39,8 @@ Enviar certificado para o dispositivo:
 ```
 adb push <arquivo> <destino>
 ```
+## Ferramentas
+APK Extractor
+```
+https://play.google.com/store/apps/details?id=braveheart.apps.apkextract&hl=en_US&gl=US
+```
