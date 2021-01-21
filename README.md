@@ -95,3 +95,5 @@ Exemplos:
 adb push Burpcerttrain /sdcard/Documents/burpcert.cer 
 adb pull /storage/emulated/0/ExtractedApks/Documents_com.android.documentsui ./
 ```
+
+https://3xpl01tc0d3r.blogspot.com/2018/06/android-root-detection-bypass.html
