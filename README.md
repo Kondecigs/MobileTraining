@@ -44,3 +44,16 @@ APK Extractor
 ```
 https://play.google.com/store/apps/details?id=braveheart.apps.apkextract&hl=en_US&gl=US
 ```
+Apktool
+https://ibotpeaches.github.io/Apktool/install/
+Download Linux wrapper script (Right click, Save Link As apktool) https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool
+Download apktool-2 (https://bitbucket.org/iBotPeaches/apktool/downloads/)
+Renomeie o arquivo baixado para apktool.jar
+Mova os arquivos (apktool.jar & apktool) para /usr/local/bin (root needed)
+Permita que ambos sejam executáveis (chmod +x)
+Abre outro terminal e teste o comando apktool
+```
+apktool -h
+apktool d <aplicativo.apk>
+```
+
