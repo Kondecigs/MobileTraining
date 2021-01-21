@@ -86,12 +86,12 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.
 ### Envio e recebimento de arquivos
 ```
 #Enviar pro android
-adb push <origem> <dest>
+adb push <pathtoarquivo> <dest>
 #Puxar do android
 adb pull <origem> <dest>
 ```
 Exemplos:
 ```
-adb pull /storage/emulated/0/ExtractedApks/Documents_com.android.documentsui ./
+adb push Burpcerttrain /sdcard/Documents/burpcert.cer 
 adb pull /storage/emulated/0/ExtractedApks/Documents_com.android.documentsui ./
 ```
