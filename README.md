@@ -77,4 +77,4 @@ https://github.com/Konloch/bytecode-viewer/releases/download/v2.9.22/Bytecode-Vi
 java -jar Bytecode-Viewer-2.9.22.jar
 ```
 
-
+keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
